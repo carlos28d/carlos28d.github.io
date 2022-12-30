@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  /* background-color: antiquewhite; */
   text-align: center;
   width: 100%;
 }
@@ -23,23 +24,32 @@ h2 {
 }
 
 #banner {
-  background-image: url("https://img.freepik.com/foto-gratis/concepto-juego-detective-misterioso-cuaderno-abierto-tapa-cuero-hoja-papel-blanco-sombrero-marron-fieltro-grandes-vasos-acero-lupa-vintage-aislados-mesa-madera-envejecida-negra-vista-superior_346278-1499.jpg?w=2000");
+  background-image: url("https://res.cloudinary.com/universidad-autonoma-de-aguascalientes/image/upload/v1672365884/mystery_fdfzak.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 11%;
+  height: 40rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#banner h1 {
+#banner h2 {
   border-radius: 2px;
   box-shadow: 10px 5px 5px black;
   background-color: rgb(255, 244, 223);
   padding: 1rem;
   width: 20rem;
-  height: 25rem;
+  height: 10rem;
+}
+
+#books {
+  background-color: antiquewhite;
+  padding: 2rem .5rem;
+}
+
+#books h2 {
+  padding: 2rem 3rem 0 3rem;
 }
 
 #books-collection img {
@@ -48,13 +58,9 @@ h2 {
   box-shadow: 10px 5px 5px black;
 }
 
-#books-heading {
-  margin: 5rem;
-}
-
 #books-collection ul {
   list-style: none;
-  margin: 5rem;
+  margin: 2.5rem;
 }
 
 #books-collection li {
@@ -62,6 +68,8 @@ h2 {
   margin-right: 2.5rem;
 }
 
-@media only screen and (max-width: 800px) {
-
+#books-collection li h3 {
+  padding-bottom: 2rem;
 }
+
+@media only screen and (max-width: 800px) {}
