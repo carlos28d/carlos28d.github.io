@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  /* background-color: antiquewhite; */
+  background-color: antiquewhite;
   text-align: center;
   width: 100%;
 }
@@ -23,28 +23,37 @@ h2 {
   font-size: 2.5rem;
 }
 
+/* Banner section */
 #banner {
   background-image: url("https://res.cloudinary.com/universidad-autonoma-de-aguascalientes/image/upload/v1672365884/mystery_fdfzak.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 40rem;
+  background-color: black;
+  width: 100%;
+  height: 45rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+}
+
+#banner img {
+  border-color: black;
+  width: 25rem;
+  height: auto;
 }
 
 #banner h2 {
   border-radius: 2px;
   box-shadow: 10px 5px 5px black;
   background-color: rgb(255, 244, 223);
-  padding: 1rem;
-  width: 20rem;
-  height: 10rem;
+  padding: 2.5rem;
+  width: 25rem;
+  display: inline-block;
 }
 
+/* Books section */
 #books {
-  background-color: antiquewhite;
   padding: 2rem .5rem;
 }
 
@@ -53,8 +62,8 @@ h2 {
 }
 
 #books-collection img {
-  width: 15rem;
-  height: auto;
+  width: auto;
+  height: 32.5rem;
   box-shadow: 10px 5px 5px black;
 }
 
@@ -69,7 +78,5 @@ h2 {
 }
 
 #books-collection li h3 {
-  padding-bottom: 2rem;
+  padding: 2rem 0;
 }
-
-@media only screen and (max-width: 800px) {}
