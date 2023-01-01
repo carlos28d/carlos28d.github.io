@@ -51,7 +51,26 @@ h2 {
   width: 25rem;
   display: inline-block;
 }
+/* Contact section */
+#contact {
+  height: 15rem;
+}
 
+#contact nav, #contact ul {
+  height: 100%;
+}
+
+#contact ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#contact li {
+  display: inline-block;
+}
+#contact img {
+  width: 10rem;
+}
 /* Books section */
 #books {
   padding: 2rem .5rem;
