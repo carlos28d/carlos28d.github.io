@@ -24,6 +24,7 @@ h2 {
 }
 
 /* Banner section */
+
 #banner {
   background-image: url("https://res.cloudinary.com/universidad-autonoma-de-aguascalientes/image/upload/v1672365884/mystery_fdfzak.jpg");
   background-repeat: no-repeat;
@@ -51,6 +52,7 @@ h2 {
   width: 25rem;
   display: inline-block;
 }
+
 /* Contact section */
 #contact {
   height: 15rem;
@@ -65,12 +67,15 @@ h2 {
   justify-content: space-around;
   align-items: center;
 }
+
 #contact li {
   display: inline-block;
 }
+
 #contact img {
   width: 10rem;
 }
+
 /* Books section */
 #books {
   padding: 2rem .5rem;
@@ -98,4 +103,48 @@ h2 {
 
 #books-collection li h3 {
   padding: 2rem 0;
+}
+
+/* ruleset for <= 420px */
+@media only screen and (max-width: 420px) {
+  h1 {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  #banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #banner h2 {
+    font-size: .9rem;
+    border-radius: 1px;
+    box-shadow: 5px 2.5px 2.5px black;
+    background-color: rgb(255, 244, 223);
+    padding: 1rem;
+    width: 15rem;
+  }
+
+  #banner img {
+    width: 15rem;
+  }
+
+  #arrow {
+    transform: rotate(90deg);
+  }
+
+  #arrow img {
+    width: 10rem;
+  }
+
+  #contact img {
+    width: 5rem;
+  }
+
+  #books-collection img {
+    height: 15rem;
+    width: auto;
+  }
 }
