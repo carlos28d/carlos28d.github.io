@@ -1,8 +1,8 @@
 function popUpImage(event) {
-  event.target.style.height = "35rem";
+  event.target.style.transform = "scale(1.1)";
 }
 function popBackImage(event) {
-  event.target.style.height = "";
+  event.target.style.transform = "scale(1)";
 }
 
 document.querySelectorAll(".book").forEach((item) => {
