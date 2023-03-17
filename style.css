@@ -105,6 +105,14 @@ h2 {
   padding: 2rem 0;
 }
 
+#project {
+  padding: 20rem;
+}
+
+#project ul {
+  list-style: none;
+}
+
 
 /* ruleset for <= 420px */
 @media only screen and (max-width: 420px) {
